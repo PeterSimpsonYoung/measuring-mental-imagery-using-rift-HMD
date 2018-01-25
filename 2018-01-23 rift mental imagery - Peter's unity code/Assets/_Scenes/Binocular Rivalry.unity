@@ -517,7 +517,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &195939222
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1012,6 +1012,7 @@ GameObject:
   - component: {fileID: 483728892}
   - component: {fileID: 483728891}
   - component: {fileID: 483728893}
+  - component: {fileID: 483728894}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -1051,7 +1052,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 483728890}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6f61b75d6867084ebdf99008aebc98a, type: 3}
   m_Name: 
@@ -1083,6 +1084,17 @@ MonoBehaviour:
   - z
   - m
   - p
+--- !u!114 &483728894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 483728890}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e51f68d23bce74f8daeebddd980234, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &550080875
 GameObject:
   m_ObjectHideFlags: 0
@@ -1667,7 +1679,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 851458886}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!92 &851458889
 Behaviour:
   m_ObjectHideFlags: 0
@@ -3476,7 +3488,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1877240640}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!92 &1877240643
 Behaviour:
   m_ObjectHideFlags: 0

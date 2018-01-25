@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{53B0B167-DEAF-0FF1-5212-D6153FB3016C}</ProjectGuid>
+    <ProjectGuid>{FCCCE6D3-C0F3-489A-7DBE-6335EE8F80F1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -83,6 +83,7 @@
      <Compile Include="Assets\_Scripts\UI\GlowMaterial.cs" />
      <Compile Include="Assets\_Scripts\UI\OverlyAttachedUI.cs" />
      <Compile Include="Assets\_Scripts\VR\VRMouseLook.cs" />
+     <Compile Include="Assets\test.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
@@ -190,7 +191,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{5D240885-1159-9326-7E7C-02FEE53ABCDA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{AA453F69-DA75-5867-B71D-2E81D968945A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
